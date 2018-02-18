@@ -25,9 +25,7 @@ deferred functions are called; we can decide when to start stacking deferred fun
 
 ```php
 // Create an instance of Defer.
-// When $defer falls out of scope,
-// your deferred callables will be,
-// called in reverse order.
+// When $defer falls out of scope, the deferred callables will be called in reverse order.
 $defer = new Defer;
 
 // Push your deferred tasks to the $defer object.
