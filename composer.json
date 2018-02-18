@@ -1,0 +1,30 @@
+{
+    "name": "liamja/defer",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liam Anderson",
+            "email": "liam.anderson.91@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {"Liamja\\Defer\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Liamja\\Defer\\Tests\\": "tests/"}
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    }
+}
